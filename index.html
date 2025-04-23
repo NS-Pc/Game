@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!--loading screen-->
+    <div id="load">
+        <p class="welcome">Welcome</p>
+        <div id="loading"><div id="in"></div></div>
+    </div>
+    <!--top information-->
+    <div class="topbox">
+        <div class="logo">2D game</div>
+        <p>Scr : <samp>0</samp></p>
+    </div>
+    <!--Game map-->
+    <div class="map">
+        <div class="box" id="box1"></div>
+        <div class="box" id="box2"></div>
+        <div class="box" id="box3"></div>
+        <div class="box" id="box4"></div>
+        <div class="box" id="box5"></div>
+        <div class="box" id="box6"></div>
+        <div class="box" id="box7"></div>
+        <div class="box" id="box8"></div>
+        <div class="box" id="box9"></div>
+    </div>
+    <!--game over-->
+    <div id="gameover">
+        <p class="top">GameOver</p>
+        <p>Scr : <samp>0</samp></p>
+        <button>Restart</button>
+    </div>
+    <!--All sound-->
+    <audio src="sound/game-development-intro-logo-316783.mp3" id="loads"></audio>
+    <audio src="sound/gamestart-272829.mp3" id="starts" ></audio>
+    <audio src="sound/game-over-39-199830.mp3" id="gameovers"></audio>
+    <audio src="sound/mixkit-game-ball-tap-2073.wav" id="pop"></audio>
+    <!--Script js-->
+    <script src="script.js"></script>
+</body>
+</html>
