@@ -23,6 +23,7 @@ body{
     background-position: center;
     background-repeat: no-repeat;
     z-index: 10000;
+    background-color: white;
 }
 .welcome{
     font-size: 50px;
